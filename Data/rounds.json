@@ -1,0 +1,37 @@
+[
+    {
+      "Shadow": {"kills": 2, "assists": 1, "deaths": true},
+      "Blaze": {"kills": 1, "assists": 0, "deaths": false},
+      "Viper": {"kills": 1, "assists": 2, "deaths": true},
+      "Frost": {"kills": 0, "assists": 1, "deaths": false},
+      "Reaper": {"kills": 1, "assists": 1, "deaths": false}
+    },
+    {
+      "Shadow": {"kills": 0, "assists": 2, "deaths": false},
+      "Blaze": {"kills": 2, "assists": 0, "deaths": true},
+      "Viper": {"kills": 1, "assists": 1, "deaths": false},
+      "Frost": {"kills": 2, "assists": 1, "deaths": true},
+      "Reaper": {"kills": 0, "assists": 1, "deaths": false}
+    },
+    {
+      "Shadow": {"kills": 1, "assists": 0, "deaths": false},
+      "Blaze": {"kills": 2, "assists": 2, "deaths": true},
+      "Viper": {"kills": 1, "assists": 1, "deaths": true},
+      "Frost": {"kills": 0, "assists": 1, "deaths": false},
+      "Reaper": {"kills": 1, "assists": 1, "deaths": false}
+    },
+    {
+      "Shadow": {"kills": 2, "assists": 1, "deaths": false},
+      "Blaze": {"kills": 1, "assists": 0, "deaths": true},
+      "Viper": {"kills": 0, "assists": 2, "deaths": false},
+      "Frost": {"kills": 1, "assists": 1, "deaths": true},
+      "Reaper": {"kills": 1, "assists": 1, "deaths": false}
+    },
+    {
+      "Shadow": {"kills": 1, "assists": 2, "deaths": true},
+      "Blaze": {"kills": 0, "assists": 1, "deaths": false},
+      "Viper": {"kills": 2, "assists": 0, "deaths": true},
+      "Frost": {"kills": 1, "assists": 1, "deaths": false},
+      "Reaper": {"kills": 1, "assists": 1, "deaths": true}
+    }
+  ]

@@ -1,11 +1,14 @@
-# Proyecto: Analisis de Partidas y MVPs
+# Proyecto: Simulación de Rondas y Análisis de Resultados
 
-Este proyecto analiza los resultados de varias partidas, generando rankings y determinando los MVPs.
-El codigo fuente con las funciones necesarias se encuentra en el directorio `src`, mientras que los notebooks de analisis estan en la carpeta `notebooks`.
+Este proyecto corresponde al ejercicio 10 de la practiva subida 
+simula el desarrollo de varias rondas de juego a partir de un archivo JSON de entrada, permitiendo analizar los resultados y extraer conclusiones, como la performance de los participantes.
 
-## Instalacion de Dependencias
+El código fuente con las funciones necesarias se encuentra en el directorio `src`, mientras que los datos de entrada están en la carpeta `data`.
 
-Para ejecutar este proyecto, se recomienda crear un entorno virtual y luego instalar las dependencias necesarias.
+## Instalación de Dependencias
+
+Este proyecto no requiere librerías externas, solo se utiliza la biblioteca estándar de Python.  
+Sin embargo, se recomienda crear un entorno virtual para aislar el entorno de desarrollo.
 
 ### 1. Crear un entorno virtual (opcional pero recomendado)
 ```bash
@@ -22,46 +25,36 @@ python -m venv venv
   source venv/bin/activate
   ```
 
-### 3. Instalar dependencias
-Ejecuta el siguiente comando en la terminal dentro del proyecto:
-```bash
-pip install -r requirements.txt
-```
-Si el archivo `requirements.txt` no está presente, puedes generarlo con:
-```bash
-pip freeze > requirements.txt
-```
-
 ## Ejecución del Proyecto
 
-Para analizar los datos, ejecuta el script principal:
+Para ejecutar la simulación de las rondas, corré el script principal desde la raíz del proyecto:
+
 ```bash
-python Ej10.py
+python main.py
 ```
 
-Si deseas trabajar desde un **notebook**, asegurate de estar en el entorno virtual y luego abre Jupyter Notebook:
-```bash
-jupyter notebook
-```
-Dentro de Jupyter, navega hasta la carpeta `notebooks` y abre el archivo correspondiente.
+Asegurate de que el archivo `rondas.json` esté disponible en la carpeta `data/`.
 
 ## Estructura del Proyecto
 ```
 proyecto/
-│── notebooks/            # Notebooks con analisis y resultados
-│   ├── ej_10.ipynb       # 
-│── src/                  # Código fuente y funciones
-│   ├── funciones.py      # Modulo con funciones principales
-│   ├── __init__.py       # Este archivo convierte a 'src' en un paquete de Python
-│── data/                 # Datos
-│   ├── rondas.json       # Datos de las rondas
-│── Ej10.py               # Script principal del ejercicio
-│── requirements.txt      # Dependencias del proyecto
-│── guardar_rondas.py     # Genera la carpeta data con el archivo rondas.json con los datos del enunciado cargados
-│── README.md             # Instrucciones y documentación
-│── VideoExplicacion.mp4  # Video explicando el funcionamiento
+│── enunciado/             # Carpeta con los archivos del enunciado de la practica
+│   ├── 02-practica.pdf    # Enunciado de la practica 
+│   ├── 02-practica.ipynb  # Resolucion de practica entera
+│
+│── data/                  # Carpeta con archivos de datos
+│   ├── rondas.json        # Datos con la configuración de las rondas
+│
+│── src/                   # Código fuente
+│   ├── funciones.py       # Funciones utilizadas por main.py
+│   ├── __init__.py        # Convierte a 'src' en un paquete
+│
+│── main.py                # Script principal que ejecuta la simulación
+│── requirements.txt       # (Opcional) Archivo con dependencias
+│── README.md              # Documentación del proyecto
 ```
 
-## Autor
-Nogueira Santiago
+## Notas
 
+- El módulo `json` utilizado forma parte de la biblioteca estándar de Python.
+- No se requieren instalaciones adicionales para correr este proyecto.

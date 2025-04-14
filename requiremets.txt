@@ -1,0 +1,20 @@
+# Este proyecto aún no requiere dependencias externas
+
+# se importa json pero s un módulo de la biblioteca estándar de Python, por lo tanto, NO se debbe poner aqui
+# src.funciones es código tuyo, no es una biblioteca externa, así que tampoco va.
+
+# ___________________________
+# NOTA
+# ¿Cómo se crea requirements.txt?
+# Después de haber activado tu entorno virtual e instalado alguna librería (por ejemplo requests, pandas, flask, etc.), podés generar automáticamente el archivo así:
+
+# bash
+# pip freeze > requirements.txt
+
+# Esto guarda todas las librerías instaladas en ese entorno virtual junto con sus versiones.
+# Ejemplo de requirements.txt generado:
+
+# txt
+#requests==2.31.0
+#flask==2.2.5
+#pandas==2.1.0
